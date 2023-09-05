@@ -107,3 +107,53 @@
 }
 
 /* ----------------------banner-part-end------------------ */
+/* ----------------------gamer-part-start------------------ */
+@media screen and (max-width: 576px) {
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-info{
+        text-align: center;
+    }
+    .gamer-img{
+        width: 100%;
+    }
+    .gamer-info{
+        width: 100%;
+    }
+    .gamer-info h2 {
+        font-size: 35px;
+    }
+    .gamer-info p {
+        font-size: 15px;
+    }
+    .gamer-info h3{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width:768px) {
+    .gamer-container{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .gamer-info{
+        text-align: center;
+    }
+    .gamer-img{
+        width: 85%;
+    }
+    .gamer-info{
+        width: 85%;
+    }
+    .gamer-info h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .gamer-info p {
+        font-size: 16px;
+    }
+    .gamer-info h3{
+        font-size: 30px;
+    }
+}
+/* ----------------------gamer-part-end------------------ */

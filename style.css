@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* -----------------------navbar-part-start------------------------- */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.logo h2{
+    font-size: 45px;
+}
+.logo span{
+    color: #FF42A5;
+}
+.logo img{
+    width: 100px;
+    height: 45px;
+    margin-right: 20px;
+}
+.nav-menu a{
+    font-size: 18px;
+    margin-right: 15px;
+    font-weight: 500;
+}
+.follow-us{
+    border: 1px solid #E7E6E9;
+    background-color: #E7E6E9;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.follow-us .fa-youtube{
+    color: red;
+    margin: 0px 5px;
+    
+}
+/* -----------------------navbar-part-end------------------------- */

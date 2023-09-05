@@ -157,3 +157,36 @@
     }
 }
 /* ----------------------gamer-part-end------------------ */
+/* ----------------------video-part-start------------------ */
+@media screen and (max-width: 576px) {
+    .video-container{
+        text-align: center;
+    }
+    .video-img{
+        flex-direction: column;
+    }
+    .video-info h2 {
+        font-size: 25px;
+    }
+    .video-info h2 > span {
+        font-size: 25px;
+    }
+    .video-img .img{
+        width: 80%;
+    }
+    .video-img img{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .video-container{
+        text-align: center;
+    }
+    .video-img{
+        flex-direction: column;
+    }
+   
+}
+
+
+/* ----------------------video-part-end------------------ */

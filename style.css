@@ -86,7 +86,7 @@ body {
 .banner-info h1 {
     font-size: 95px;
     font-weight: 900;
-    background: -webkit-linear-gradient(#FD4EB7, #8758F1);
+    background:linear-gradient(#FD4EB7, #8758F1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 10px 0;

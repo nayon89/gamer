@@ -38,6 +38,9 @@
     .banner-info h1 {
         margin: 0;
     }
+    .banner-info h2 {
+        font-size: 30px; 
+    }
 
     .banner-info {
         width: 100%;
@@ -209,12 +212,10 @@
     font-size: 10px;
     margin: 5px;
 }
-img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
 }
-}
-
-
 /* ----------------------game-btn-part-end------------------ */
+/* ----------------------online-game-part-start------------------ */
+
+
+
+/* ----------------------online-game-part-end------------------ */

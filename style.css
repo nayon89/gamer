@@ -373,4 +373,146 @@ a:hover{
     display: block;
 }
 /* -----------------------game-btn-part-end------------------------- */
+/* -----------------------footer-part-start------------------------- */
+/* footer{
+    background-color: #000;
+    padding: 100px 0px;
+    text-align: center;
+}
+.footer-container{
+    width: 814px;
+    margin: 0 auto;
+    
+}
+.footer-logo .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-logo .logo h2 {
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.footer-logo .logo span {
+    color: #FF42A5;
+}
+
+.footer-logo .logo img {
+    width: 100px;
+    height: 45px;
+    margin-right: 20px;
+}
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.footer-menu p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.footer-icon{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.footer-icon .fa-brands{
+    margin-right: 30px;
+}
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-info > p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.copyright > p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+} */
+footer {
+    background-color: #000;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.footer-container {
+    width: 814px;
+    margin: 0 auto;
+}
+
+.footer-logo .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-logo .logo h2 {
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.footer-logo .logo span {
+    color: #FF42A5;
+}
+
+.footer-logo .logo img {
+    width: 100px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.footer-menu p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.footer-icon {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+.footer-icon {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.footer-icon .fa-brands {
+    margin-right: 30px;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-info > p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.copyright > p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* -----------------------footer-part-end------------------------- */
 

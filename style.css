@@ -269,6 +269,62 @@ body {
 }
 
 /* -----------------------video-part-end------------------------- */
+/* -----------------------online-game-part-start------------------------- */
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    margin: 100px 0px;
+}
+
+.left-side {
+    width: 845px;
+    position: relative;
+}
+
+.left-side img.full-image {
+    width: 710px;
+    height: auto;
+    display: block;
+}
+
+.left-side img.small-image {
+    position: absolute;
+    bottom: -185px;
+    right: -11px;
+    width: 318px; 
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.right-side {
+    width: 483px;
+    padding: 20px;
+}
+
+.right-side h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.right-side h2 > span {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    background:linear-gradient(#FD4EB7, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right-side p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* -----------------------online-game-part-end------------------------- */
 /* -----------------------game-btn-part-start------------------------- */
 .game-btn-container{
     background-color: #FFF9FC;
@@ -276,6 +332,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 .game-btn{
     max-width: 1440px;
@@ -313,49 +370,3 @@ body {
 }
 /* -----------------------game-btn-part-end------------------------- */
 
-/* -----------------------online-game-part-start------------------------- */
-  .section-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    padding: 20px;
-}
-
-/* Left side (image) */
-.left-side {
-    width: 845px;
-    position: relative;
-}
-
-.left-side img.full-image {
-    width: 710px;
-    height: auto;
-    display: block;
-}
-
-.left-side img.small-image {
-    position: absolute;
-    bottom: -123px;
-    right: -11px;
-    width: 318px; /* Adjust the size as needed */
-    height: auto;
-}
-
-/* Right side (text) */
-.right-side {
-    width: 483px;
-    padding: 20px;
-}
-
-.right-side h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.right-side p {
-    font-size: 16px;
-}
-
-
-/* -----------------------online-game-part-end------------------------- */

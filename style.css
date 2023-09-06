@@ -314,7 +314,48 @@ body {
 /* -----------------------game-btn-part-end------------------------- */
 
 /* -----------------------online-game-part-start------------------------- */
+  .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
 
+/* Left side (image) */
+.left-side {
+    width: 845px;
+    position: relative;
+}
+
+.left-side img.full-image {
+    width: 710px;
+    height: auto;
+    display: block;
+}
+
+.left-side img.small-image {
+    position: absolute;
+    bottom: -123px;
+    right: -11px;
+    width: 318px; /* Adjust the size as needed */
+    height: auto;
+}
+
+/* Right side (text) */
+.right-side {
+    width: 483px;
+    padding: 20px;
+}
+
+.right-side h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right-side p {
+    font-size: 16px;
+}
 
 
 /* -----------------------online-game-part-end------------------------- */

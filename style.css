@@ -335,7 +335,7 @@ body {
     margin-top: 200px;
 }
 .game-btn{
-    max-width: 1440px;
+    max-width: 1450px;
     text-align: center;
     
 }
@@ -351,9 +351,13 @@ body {
     text-decoration: none;
     cursor: pointer;
     overflow: hidden;
-    margin: 5px;
+    margin: 4px;
+    border: 1px solid transparent;
 }
-
+a:hover{
+    border: 1px solid #FF42A5;
+    color: #FD4EB7;
+}
 .round-button .button-content {
     display: flex;
     align-items: center;

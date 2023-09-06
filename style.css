@@ -269,3 +269,46 @@ body {
 }
 
 /* -----------------------video-part-end------------------------- */
+/* -----------------------game-btn-part-start------------------------- */
+.game-btn-container{
+    background-color: #FFF9FC;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-btn{
+    max-width: 1440px;
+    text-align: center;
+    
+}
+.round-button {
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    background-color: #FFFFFF; 
+    color: #000;
+    font-size: px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.round-button .button-content {
+    display: flex;
+    align-items: center;
+}
+.round-button .button-content .button-text {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.button-content .button-image >img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+/* -----------------------game-btn-part-end------------------------- */

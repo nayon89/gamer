@@ -187,6 +187,34 @@
     }
    
 }
-
-
 /* ----------------------video-part-end------------------ */
+/* ----------------------game-btn-part-start------------------ */
+@media screen and (max-width: 576px){
+    .game-btn-container{
+        padding: 30px 0px;
+    }
+    .game-btn{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+.round-button .button-content .button-text {
+    margin-left:10px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.round-button {
+    border-radius: 50px;
+    padding: 5px 25px;
+    font-size: 10px;
+    margin: 5px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+}
+
+
+/* ----------------------game-btn-part-end------------------ */
